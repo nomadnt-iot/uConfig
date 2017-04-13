@@ -12,11 +12,9 @@ namespace nomadnt{
     public:
       /**
        *  constructor
-       *  @param config_t &cfg
        *  @param config_t &cfg_default
        *  @param unsigned int address
        **/
-      //uConfig(config_t &cfg, const config_t &cfg_default, unsigned int addr = 0);
       uConfig(const config_t &cfg_default, unsigned int addr = 0);
 
       /**
@@ -53,7 +51,6 @@ namespace nomadnt{
     private:
 
       config_t _cfg;
-      //config_t &_cfg;
 
       unsigned int _addr;
 

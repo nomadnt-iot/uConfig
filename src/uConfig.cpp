@@ -2,10 +2,6 @@
 
 namespace nomadnt{
 
-  /*uConfig::uConfig(config_t &cfg, const config_t &cfg_default, unsigned int addr) : _cfg(cfg), _cfg_default(cfg_default){
-    _addr = addr;
-  }*/
-
   uConfig::uConfig(const config_t &cfg_default, unsigned int addr) : _cfg_default(cfg_default){
     _addr = addr;
   }
