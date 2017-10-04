@@ -44,7 +44,7 @@ namespace nomadnt{
 
       /**
        *  get configuration struct to use inside other functions
-       *  @return boolean
+       *  @return config_t
        **/
       config_t &data();
 

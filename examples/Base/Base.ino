@@ -16,10 +16,10 @@ void setup(){
   //config.drop(true);
   config.init();
 
-  Serial.println("is configured: " + String(config.data().isConfigured));
+  Serial.println(F("is configured: ") + String(config.data().isConfigured));
   if(config.data().isConfigured == 0){
     config.data().isConfigured = 1;
-    Serial.println("setting new values to: " + String(config.data().isConfigured));
+    Serial.println(F("setting new values to: ") + String(config.data().isConfigured));
     config.save();
   }
 }
